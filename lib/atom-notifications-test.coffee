@@ -18,6 +18,8 @@ module.exports = AtomNotificationsTest =
   toggle: ->
     console.log 'AtomNotificationsTest was toggled!'
     hipsterText = "Crucifix cronut cornhole Vice distillery, skateboard biodiesel chillwave hashtag Truffaut Helvetica gastropub cray trust fund ennui. High Life whatever salvia swag. Kitsch letterpress Pinterest"
-    atom.notifications.addInfo "Info", detail: hipsterText
-    atom.notifications.addWarning "Warning", detail: hipsterText
-    atom.notifications.addError "Error", detail: hipsterText
+    atom.notifications.addSuccess 'success', detail: hipsterText
+    atom.notifications.addInfo 'Info', detail: hipsterText
+    atom.notifications.addWarning 'Warning', detail: hipsterText
+    atom.notifications.addError 'Error', detail: hipsterText
+    atom.notifications.addFatalError 'Fatal Error', detail: hipsterText
