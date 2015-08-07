@@ -2,13 +2,13 @@
   "name": "atom-notifications-test",
   "main": "./lib/atom-notifications-test",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "atom notifications api testing",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "atom-notifications-test:toggle"
   },
-  "repository": "https://github.com/atom/atom-notifications-test",
+  "repository": "https://github.com/kandros/atom-notifications-test",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
